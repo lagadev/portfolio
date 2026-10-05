@@ -1,0 +1,8 @@
+@tailwind base; @tailwind components; @tailwind utilities;
+html { background:#06110D; scroll-behavior:smooth; }
+body { margin:0; color:#E6F0EA; font-family:'Hind Siliguri',sans-serif; background:#06110D; -webkit-font-smoothing:antialiased; overflow-x:hidden; }
+.bg-dots { background-image:radial-gradient(rgba(200,255,0,.12) 1px, transparent 1px); background-size:22px 22px; }
+.h-fluid { font-family:'Space Grotesk',sans-serif; font-size:clamp(2.6rem,9vw,5.5rem); line-height:.98; letter-spacing:-.03em; }
+.h-sub { font-family:'Space Grotesk',sans-serif; font-size:clamp(1.5rem,4.5vw,2.5rem); letter-spacing:-.02em; }
+:focus-visible { outline:2px solid #C8FF00; outline-offset:3px; }
+@media (prefers-reduced-motion:reduce){ *{animation:none!important;transition:none!important;scroll-behavior:auto!important} }
